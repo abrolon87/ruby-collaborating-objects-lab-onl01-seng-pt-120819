@@ -6,12 +6,13 @@ class Artist
     @name = name
   end
 
+  def self.find_or_create_by_name
+
+  end
   def self.all
     @@all
   end
 
-  def add_song
 
-  end
 
 end
