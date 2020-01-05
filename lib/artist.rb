@@ -4,7 +4,7 @@ class Artist
 
   def initialize(name)
     @name = name
-    @@all << self
+    #@@all << self
   end
 
   def add_song(song)
@@ -12,7 +12,7 @@ class Artist
   end
 
   def self.find_or_create_by_name
-    
+
   end
 
   def songs
