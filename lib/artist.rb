@@ -4,10 +4,11 @@ class Artist
 
   def initialize(name)
     @name = name
+    @@all << self 
   end
 
   def add_song
-    @@all << Song.name
+    song.artist = self 
   end
 
   def self.find_or_create_by_name
